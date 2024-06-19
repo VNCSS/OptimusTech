@@ -1,0 +1,48 @@
+.section__feedbacks{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__feedbacks{
+    background-color: rgba(142, 36, 36, 0.06);
+    height:60%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.textos__feedbacks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+.subtitulo__feedbacks{
+    font-size: 1rem;
+    color: var(--vermelho);
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.titulo__feedbacks{
+    font-size: 2.2rem;
+    text-align: center;
+}
+.imagem__julia{
+    width: 90%;
+    height: 90%;
+    margin-bottom: .5em;
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cargo{
+    color: var(--cinza-escuro);
+}

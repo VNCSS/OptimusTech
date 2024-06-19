@@ -1,0 +1,76 @@
+.section__vagas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+.container__vagas-abertas{
+    margin-top: 96px;
+}
+.sub__background{
+    display: flex;
+    justify-content: center;
+}
+.subtitulo__vagas-abertas{
+    display: flex;
+    justify-content: center;
+    color: var(--vermelho);
+    font-size: 1rem;
+    background-color: rgba(142, 36, 36, 0.07);
+    padding: .3em;
+    border-radius: 16px;
+    width: 8%;
+}
+.titulo__vagas-abertas{
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem;
+}
+.texto__vagas-abertas{
+    display: flex;
+    justify-content: center;
+    color: var(--cinza-escuro);
+    font-size: 1.4rem;
+}
+.div__imagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+.imagem__vagas{
+    background-color: bisque;
+    width: 75%;
+    image-resolution: 1216 400;
+}
+.container__cargos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.area{
+    font-size: 1.3rem;
+    color: var(--preto);
+}
+.cargo__vaga{
+    border: 1px solid rgba(168, 178, 196, 0.9);
+    border-radius: 10px;
+    padding: 2em 2em 2em 1em;
+    margin: 2em 0em;
+}
+.cargos__design{
+    width: 60%;
+}
+.area, .nome-cargo{
+    padding: 0em 0em .5em 0em;
+}
+.info__cargo{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3em;
+}
+.salario{
+    margin-left: 1.5em;
+}
